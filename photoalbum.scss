@@ -1,0 +1,94 @@
+header{
+ h1{
+  text-align:center;
+ }
+ .homeBox{
+  a{
+   text-align:center;
+   background:gray;
+ }
+}
+}
+
+.container{
+ display:block;
+ width:100%;
+
+   .pageOne{
+    
+    width:100%;
+
+     li{
+      display:inline-block;
+      width:33%;
+
+     }
+     img{
+      width:100%;
+      height:350px;
+     }
+     img:hover{
+      box-shadow:10px 10px 5px gray;
+      cursor:pointer;
+     }
+   }
+   .sportPage {
+
+    width:100%;
+
+     li{
+      display:inline-block;
+      width:33%;
+     }
+     img{
+      width:100%;
+      height:350px;
+     }
+     img:hover{
+      box-shadow:10px 10px 5px gray;
+      cursor:pointer;
+     }
+   }
+   .comedyPage {
+
+    width:100%;
+
+     li{
+      display:inline-block;
+      width:33%;
+     }
+     img{
+      width:100%;
+      height:350px;
+     }
+     img:hover{
+      box-shadow:10px 10px 5px gray;
+      cursor:pointer;
+     }
+   }
+   .dogPage{
+
+    width:100%;
+
+     li{
+      display:inline-block;
+      width:33%;
+     }
+     img{
+      width:100%;
+      height:350px;
+     }
+     img:hover{
+      box-shadow:10px 10px 5px gray;
+      cursor:pointer;
+     }
+   }
+}
+
+.sportPage, .comedyPage, .dogPage {
+ display:none;
+}
+
+.currentPage {
+ display:inline-block;
+}

@@ -1,0 +1,59 @@
+header h1 {
+  text-align: center; }
+header .homeBox a {
+  text-align: center;
+  background: gray; }
+
+.container {
+  display: block;
+  width: 100%; }
+  .container .pageOne {
+    width: 100%; }
+    .container .pageOne li {
+      display: inline-block;
+      width: 33%; }
+    .container .pageOne img {
+      width: 100%;
+      height: 350px; }
+    .container .pageOne img:hover {
+      box-shadow: 10px 10px 5px gray;
+      cursor: pointer; }
+  .container .sportPage {
+    width: 100%; }
+    .container .sportPage li {
+      display: inline-block;
+      width: 33%; }
+    .container .sportPage img {
+      width: 100%;
+      height: 350px; }
+    .container .sportPage img:hover {
+      box-shadow: 10px 10px 5px gray;
+      cursor: pointer; }
+  .container .comedyPage {
+    width: 100%; }
+    .container .comedyPage li {
+      display: inline-block;
+      width: 33%; }
+    .container .comedyPage img {
+      width: 100%;
+      height: 350px; }
+    .container .comedyPage img:hover {
+      box-shadow: 10px 10px 5px gray;
+      cursor: pointer; }
+  .container .dogPage {
+    width: 100%; }
+    .container .dogPage li {
+      display: inline-block;
+      width: 33%; }
+    .container .dogPage img {
+      width: 100%;
+      height: 350px; }
+    .container .dogPage img:hover {
+      box-shadow: 10px 10px 5px gray;
+      cursor: pointer; }
+
+.sportPage, .comedyPage, .dogPage {
+  display: none; }
+
+.currentPage {
+  display: inline-block; }

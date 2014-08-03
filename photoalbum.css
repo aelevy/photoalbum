@@ -1,8 +1,8 @@
-header h1 {
+header {
   text-align: center; }
-header .homeBox a {
-  text-align: center;
-  background: gray; }
+  header .homeBox a {
+    text-align: center;
+    background: gray; }
 
 .container {
   display: block;
@@ -52,8 +52,15 @@ header .homeBox a {
       box-shadow: 10px 10px 5px gray;
       cursor: pointer; }
 
-.sportPage, .comedyPage, .dogPage {
+.pageOne, .sportPage, .comedyPage, .dogPage {
   display: none; }
+
+.sportPage .showImage, .comedyPage .showImage, .dogPage .showImage {
+  height: 450px;
+  width: 50%; }
 
 .currentPage {
   display: inline-block; }
+
+.hidden {
+  display: none; }

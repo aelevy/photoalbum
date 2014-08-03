@@ -1,12 +1,20 @@
 $(document).ready(function(event){
 
-$(".pageOne li img").click(function(event){
+$(".pageOne img").click(function(event){
   event.preventDefault();
-  var pageToNavigate = "." $(this).attr("div");
+  console.log(event.target);
+  var pageToNavigate =  "." + $(this).attr("data-album");
+  console.log(pageToNavigate);
+
 
   $(".container").children().removeClass("currentPage");
   $(pageToNavigate).addClass("currentPage");
 
 });
+$('.sportPage img').click(function(event){
 
+    $(this).siblings().toggleClass('hidden');
+    $(this).toggleClass('showImage');
+
+  });
 });

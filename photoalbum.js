@@ -11,9 +11,9 @@ $(".pageOne img").click(function(event){
   $(pageToNavigate).addClass("currentPage");
 
 });
-$('.sportPage img').click(function(event){
+$('.album li').click(function(event){
 
-    $(this).siblings().toggleClass('hidden');
+    $(this).closest('li').siblings().toggleClass('hidden');
     $(this).toggleClass('showImage');
 
   });
